@@ -6,7 +6,8 @@ skewness1(x) = length(x) > 1 ? skewness(x) : 1.0
 kurtosis1(x) = length(x) > 1 ? kurtosis(x) : -1.0
 
 for T1 in (:T, :(Union{Missing,T}))
-    for (R,F) in ((:runmin, :minimum), (:runmax, :maximum), (:runsum, :sum),
+    for (R,F) in ((:runmin, :minimum), (:runmax, :maximum), 
+                  (:runsum, :sum), (:runprod, :prod),
                   (:runmean, :mean), (:runmedian, :median), 
                   (:runvar, :var1), (:runstd, :std1),
                   (:runskewness, :skewness1), (:runkurtosis, :kurtosis1),
