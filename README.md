@@ -8,7 +8,7 @@
 
 
 
-[![Build Status](https://travis-ci.org/JeffreySarnoff/RollingFunctions.jl.svg?branch=master)](https://travis-ci.org/JeffreySarnoff/RollingFunctions.jl)
+[![Build Status](https://travis-ci.org/JeffreySarnoff/RollingFunctions.jl.svg?branch=main)](https://travis-ci.org/JeffreySarnoff/RollingFunctions.jl)
 
 -----
 ### works with integers, floats, and missings
